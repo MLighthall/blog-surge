@@ -1,0 +1,129 @@
+.container{max-width:810px;padding:0 0px;margin:0 auto;}
+h1,h2,h3,h4,h5,h6,p {
+	padding: none;
+	margin: 0 auto;
+}
+main {
+	padding-top: 0px;
+	display: block;
+}
+.top-social {
+	padding-top: 10px;
+	padding-bottom: 25px;
+}
+.blog-title{
+	height: 47px;
+}
+.well-featured {
+	background-color: #22262e;
+}
+.well {
+	background-color: #1f232b;
+	outline: none;
+	border: transparent;
+}
+.well:hover{
+	background-color: #22262e;
+	outline: none;
+	border: transparent;
+	-o-transition:.5s;
+	ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	  /* ...and now for the proper property */
+  transition:.5s;
+}
+
+.featured-post-img {
+	border-radius: 4px;
+}
+
+.button-read {
+	border-radius: 4px;
+	box-shadow: none;
+	background-color: #fff;
+	border: transparent;
+	color: #1b1f27;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: 600;
+}
+
+h2.featured-post-title {
+	color: white;
+	font-weight: 700;
+	padding-bottom: 5px;
+}
+p.featured-post-date {
+	font-weight: 600;
+	padding-bottom: 5px;
+}
+span.featured-post-author {
+	color: white;
+}
+p.featured-post-desc {
+	padding-bottom: 10px;
+	font-size: 16px;
+}
+
+.featured-post-img-responsive img{
+		display: none;
+	}
+
+@media(min-width: 1200px) {
+	div.half {
+		max-width: 394px;
+	}
+}
+
+@media (max-width: 767px) {
+	.container{max-width:810px;padding:0 25px;margin:0 auto;}
+
+}
+
+@media (max-width: 414px) {
+	div.well.col-lg-12 {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.blog-title{
+	height: 36px;
+	margin-top: 10px;
+	}
+
+	.button-read {
+	border-radius: 4px;
+	box-shadow: none;
+	background-color: #595d67;
+	border: transparent;
+	color: #1b1f27;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	font-weight: 600;
+	width: 100%;
+	font-size: 20px;
+}
+	.featured-post-img-responsive img{
+		display: block;
+	}
+	.featured-post-img {
+		display: none;
+	}
+	h2.featured-post-title {
+	color: white;
+	font-weight: 700;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	}
+	.well {
+	background-color: #1f232b;
+	outline: none;
+	border: transparent;
+}
+
+}
